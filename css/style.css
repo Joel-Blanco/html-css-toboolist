@@ -5,17 +5,25 @@
 }
 
 body {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(230, 230, 230);
+}
+
+main{
+     margin: 0 250px;
 }
 /* utilities */
-.py {
+.py-10 {
     padding-top: 10px;
     padding-bottom: 10px; 
 }
 
-.px {
+.px-20 {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.style-none {
+    list-style: none;
 }
 
 /* header */
@@ -37,3 +45,72 @@ h1 {
 
 /* main */
 
+/* buttons-section */
+.button-section {
+    background-color: white;
+    margin-bottom:5px;
+    border-top-left-radius: 10px;             
+    border-top-right-radius: 10px;            
+    padding: 20px 0 10px 60px;
+}
+
+.button-section button {
+    padding: 8px 15px;
+    background-color: white;
+    color: rgb(150, 150, 150);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+}
+
+button:active{
+    background-color: rgb(70, 160, 210);
+    border: 1px solid rgb(70, 160, 210);
+    color:white;
+}
+
+/* list-section */
+.list-section {
+    background-color: white;
+    border-bottom-left-radius: 10px;             
+    border-bottom-right-radius: 10px;            
+    padding: 40px 60px;
+}
+
+.list-section h3 {
+padding-bottom: 10px;
+}
+
+.check {
+    display: inline-block;
+    border: 1px solid rgb(0, 180, 0);
+    color: rgb(0, 180, 0);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 0.6em;
+    margin-right: 10px;
+}
+
+.cross {
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 0.6em;
+    margin-right: 10px;
+}
+
+.tag {
+    padding: 5px 10px;
+    background-color: rgb(70, 160, 210);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 0.6em;
+    margin-left:5px
+}
