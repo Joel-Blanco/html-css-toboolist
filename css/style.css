@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(230, 230, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main{
@@ -114,6 +115,7 @@ padding-top: 5px;
     margin-right: 10px;
 }
 
+/* list-section-tags */
 .tag {
     display:inline-block;
     padding: 5px 10px;
@@ -122,4 +124,24 @@ padding-top: 5px;
     border-radius: 10px;
     font-size: 0.6em;
     margin-left: 5px;
+}
+
+.q1-goals {
+    background-color: rgb(155, 95, 155);
+}
+
+.recruiting {
+    background-color: rgb(117, 189, 165);
+}
+
+.mobile {
+    background-color: rgb(221, 165, 109);
+}
+
+.website {
+    background-color: rgb(192, 112, 179);
+}
+
+.sales {
+    background-color: rgb(184, 184, 78);
 }
